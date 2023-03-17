@@ -4,6 +4,6 @@ module "s3-bucket" {
 }
 
 module "bucket_prefix" {
-    Description: (Optional, Forces new resource) The name of the bucket. If omitted, Terraform will assign a random, unique name.
-    Default: "jwbae"
+    Description = "(Optional, Forces new resource) The name of the bucket. If omitted, Terraform will assign a random, unique name."
+    Default = "jwbae"
 }
